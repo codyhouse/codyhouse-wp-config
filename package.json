@@ -1,0 +1,33 @@
+{
+  "name": "codyframe-wp",
+  "version": "1.0.0",
+  "description": "CodyFrame WP",
+  "keywords": [
+    "wordpress",
+		"theme",
+		"codyframe",
+    "framework",
+    "codyhouse"
+  ],
+  "scripts": {
+    "gulp": "gulp",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Amber Creative <info@ambercreative.co>",
+  "license": "MIT",
+  "devDependencies": {
+    "autoprefixer": "^9.4.3",
+    "browser-sync": "^2.26.3",
+    "gulp": "^4.0.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-connect-php": "^1.0.3",
+    "gulp-postcss": "^8.0.0",
+    "gulp-rename": "^1.4.0",
+    "gulp-sass": "^4.0.2",
+    "gulp-sass-glob": "^1.1.0",
+    "gulp-uglify": "^3.0.2",
+    "postcss-calc": "^7.0.1",
+    "postcss-css-variables": "git+https://github.com/CodyHouse/postcss-css-variables"
+  },
+  "homepage": "https://codyhouse.co"
+}
