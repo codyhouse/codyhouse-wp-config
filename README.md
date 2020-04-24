@@ -1,6 +1,6 @@
-# CodyHouse Configuration Files for WordPress
+# CodyFrame Configuration Files for WordPress
 
-This folder contains the package.json and gulp.js files that you can use to include the CodyHouse Framework in your WordPress theme.
+This folder contains the package.json and gulp.js files that you can use to include CodyFrame in your WordPress theme.
 
 Check out our [documentation page](https://codyhouse.co/ds/docs/framework#wp) for more info on how to use these configuration files.
 
