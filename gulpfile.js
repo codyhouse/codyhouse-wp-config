@@ -10,7 +10,7 @@ var concat = require('gulp-concat');
 var rename = require('gulp-rename');
 var uglify = require('gulp-uglify');
 var connect  = require('gulp-connect-php');
-var themeName = 'codyframe-wp'; // use your WP theme name (e.g., twentytwenty)
+var themeName = 'codyframe-wp'; // use your WP theme folder name
 
 // js file paths
 var utilJsPath = 'node_modules/codyhouse-framework/main/assets/js'; 
