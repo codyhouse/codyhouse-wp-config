@@ -1,6 +1,6 @@
 {
   "name": "codyframe-wp",
-  "version": "1.0.1",
+  "version": "3.0.0",
   "description": "CodyFrame WP",
   "keywords": [
     "wordpress",
@@ -18,7 +18,7 @@
   "devDependencies": {
     "autoprefixer": "^9.4.3",
     "browser-sync": "^2.26.3",
-    "codyhouse-framework": "^2.5.0",
+    "codyhouse-framework": "^3.0.0",
     "gulp": "^4.0.0",
     "gulp-concat": "^2.6.1",
     "gulp-connect-php": "^1.0.3",
@@ -26,10 +26,10 @@
     "gulp-purgecss": "^3.0.0",
     "gulp-rename": "^1.4.0",
     "gulp-sass": "^4.0.2",
-    "gulp-sass-glob": "^1.1.0",
+    "gulp-sass-glob": "git+https://github.com/CodyHouse/gulp-sass-glob",
     "gulp-uglify": "^3.0.2",
-    "postcss-calc": "^7.0.1",
-    "postcss-css-variables": "git+https://github.com/CodyHouse/postcss-css-variables"
+    "sass": "^1.37.5",
+    "sass-embedded": "^1.0.0-beta.3"
   },
   "homepage": "https://codyhouse.co"
 }

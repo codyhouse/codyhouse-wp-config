@@ -1,11 +1,10 @@
 var gulp = require('gulp');
 var sass = require('gulp-sass');
+sass.compiler = require('sass-embedded');
 var sassGlob = require('gulp-sass-glob');
 var browserSync = require('browser-sync');
 var postcss      = require('gulp-postcss');
 var autoprefixer = require('autoprefixer');
-var cssvariables = require('postcss-css-variables'); 
-var calc = require('postcss-calc');  
 var concat = require('gulp-concat');
 var rename = require('gulp-rename');
 var uglify = require('gulp-uglify');
@@ -37,12 +36,6 @@ gulp.task('sass', function() {
     stream: true,
     notify: false
   })); 
-  // if you need to support IE11 and below:
-  // 1 - remove ; from the above line 👆
-  // 2 - uncomment 3 lines below 👇
-  // .pipe(rename('style-fallback.css'))
-  // .pipe(postcss([cssvariables(), calc()]))
-  // .pipe(gulp.dest(cssFolder));
 });
 
 gulp.task('scripts', function() {
