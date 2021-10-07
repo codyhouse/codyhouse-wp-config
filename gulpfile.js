@@ -68,7 +68,11 @@ gulp.task('purgeCSS', function(){
   gulp.src(cssFolder+'/style.css')
   .pipe(purgecss({
     content: ['**/*.php', scriptsJsPath+'/scripts.min.js'],
-    safelist: ['.is-hidden', '.is-visible'],
+    safelist: {
+      standard: ['.is-hidden', '.is-visible'],
+      deep: [/class$/],
+      greedy: []
+    },
     defaultExtractor: content => content.match(/[\w-/:%@]+(?<!:)/g) || []
   }))
   .pipe(gulp.dest(cssFolder));
